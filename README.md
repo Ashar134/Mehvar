@@ -1,6 +1,6 @@
-# 🏗️ ClickNBuild – A Smarter Way to Build!
+# 🏗️ Mehvar – A Smarter Way to Build!
 
-**ClickNBuild** is a web-based construction project bidding platform developed as part of a 6th semester Web Engineering course. Our platform bridges the gap between clients and builders by enabling efficient, transparent collaboration for construction projects.
+**Mehvar** is a web-based construction project bidding platform developed as part of a 6th semester Web Engineering course. Our platform bridges the gap between clients and builders by enabling efficient, transparent collaboration for construction projects.
 
 ---
 
@@ -38,8 +38,8 @@
 ### Installation  
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/Ashar134/ClickNBuild.git
-   cd ClickNBuild
+   git clone https://github.com/Ashar134/Mehvar.git
+   cd Mehvar
 
 ---
 
