@@ -93,13 +93,6 @@ Mehvar/
 
 ## Data Models at a Glance
 
-```
-User ──┬──> Client ──> Project ──> Bid <── Builder
-       │                     └──> Review
-       │                     └──> Payment
-       └──> Builder ──> VendorMarketplace
-```
-
 - **User** - shared authentication entity (email, hashed password, role)
 - **Client** - company info, location, project history
 - **Builder** - specialization, experience, ratings, earnings
@@ -214,8 +207,3 @@ Developed as part of a 6th Semester Web Engineering course project.
 
 The name *Mehvar* (محور) is an Urdu and Persian word meaning **axis** or **pivot** - the central point around which everything revolves. In construction, the foundation is everything. This platform was built with that same principle in mind: reliable infrastructure that people can build on top of.
 
----
-
-## License
-
-This project is for academic and demonstration purposes. All rights reserved by the original authors.
