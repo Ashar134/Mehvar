@@ -19,10 +19,10 @@ with app.app_context():
                 price_pkr=item["price_pkr"],
                 category=item["category"],
                 vendor_name=item["vendor_name"],
-                contact_number=item["contact_number"],  # ✅ Added line
+                contact_number=item["contact_number"], 
                 created_at=created_at,
                 image=item["image"]
             )
             db.session.add(product)
         db.session.commit()
-        print("✅ Marketplace seeded successfully.")
+        print(" Marketplace seeded successfully.")
