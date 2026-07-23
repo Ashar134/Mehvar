@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="SAGE Demo" width="100%">
+  <img src="./assets/banner.png" alt="Mehvar" width="100%">
 </p>
 
 
