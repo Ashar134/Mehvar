@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="SAGE Demo" width="100%">
+</p>
+
+
 # Mehvar
 
 > *"Mehvar" - the axis, the pivot, the foundation on which everything turns.*
@@ -46,7 +51,7 @@ A dedicated marketplace for construction materials and accessories. Builders can
 Payment processing is handled through the Stripe API. Clients are charged only when a project reaches agreed-upon milestones, and the payment flow is designed to protect both sides.
 
 ### Profile Management
-Clients and builders each have their own profile space — including company name, location, specialization, experience, and a profile picture. These are not vanity pages; they are trust signals that influence bidding decisions.
+Clients and builders each have their own profile space - including company name, location, specialization, experience, and a profile picture. These are not vanity pages; they are trust signals that influence bidding decisions.
 
 ---
 
@@ -95,14 +100,14 @@ User ──┬──> Client ──> Project ──> Bid <── Builder
        └──> Builder ──> VendorMarketplace
 ```
 
-- **User** — shared authentication entity (email, hashed password, role)
-- **Client** — company info, location, project history
-- **Builder** — specialization, experience, ratings, earnings
-- **Project** — type, budget, timeline, status, assigned builder
-- **Bid** — cost estimate, proposal text, status per builder
-- **Review** — bidirectional (client reviews builder, builder reviews client)
-- **Payment** — tracked per project, integrated with Stripe
-- **VendorMarketplace** — product listings with category, price (PKR), vendor info
+- **User** - shared authentication entity (email, hashed password, role)
+- **Client** - company info, location, project history
+- **Builder** - specialization, experience, ratings, earnings
+- **Project** - type, budget, timeline, status, assigned builder
+- **Bid** - cost estimate, proposal text, status per builder
+- **Review** - bidirectional (client reviews builder, builder reviews client)
+- **Payment** - tracked per project, integrated with Stripe
+- **VendorMarketplace** - product listings with category, price (PKR), vendor info
 
 ---
 
@@ -186,8 +191,8 @@ The app will be available at `http://127.0.0.1:5000`.
 | Route | Role | Description |
 |---|---|---|
 | `/signup` | Public | Registration and login page |
-| `/register` | Public | Form POST — creates new user |
-| `/login` | Public | Form POST — authenticates user |
+| `/register` | Public | Form POST - creates new user |
+| `/login` | Public | Form POST - authenticates user |
 | `/logout` | Authenticated | Clears session |
 | Client routes | Client | Home, project posting, bid management |
 | Builder routes | Builder | Dashboard, bidding, marketplace |
@@ -198,7 +203,7 @@ The app will be available at `http://127.0.0.1:5000`.
 
 - Passwords are hashed using `werkzeug.security.generate_password_hash` (PBKDF2-SHA256)
 - Sessions are server-side using Flask's signed cookie mechanism
-- Stripe test mode is used by default — switch to live keys for production
+- Stripe test mode is used by default - switch to live keys for production
 - The `SECRET_KEY` in `config.py` **must** be replaced before any production deployment
 
 ---
@@ -207,7 +212,7 @@ The app will be available at `http://127.0.0.1:5000`.
 
 Developed as part of a 6th Semester Web Engineering course project.
 
-The name *Mehvar* (محور) is an Urdu and Persian word meaning **axis** or **pivot** — the central point around which everything revolves. In construction, the foundation is everything. This platform was built with that same principle in mind: reliable infrastructure that people can build on top of.
+The name *Mehvar* (محور) is an Urdu and Persian word meaning **axis** or **pivot** - the central point around which everything revolves. In construction, the foundation is everything. This platform was built with that same principle in mind: reliable infrastructure that people can build on top of.
 
 ---
 
